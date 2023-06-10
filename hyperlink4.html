@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">游戲王OCG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="hyperlink.html">簡介</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hyperlink2.html">召喚打法</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hyperlink3.html">構築</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hyperlink4.html">卡片類型</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hyperlink5.html">卡組構成</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            開闊卡研
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item"
+                                    href="https://ntucgm.blogspot.com/">Web</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.facebook.com/FRCGYGO">Facebook</a></li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/@ocgfrontiercardgaming7625">Youtube</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <a href="https://www.bilibili.com/video/BV1sd4y187TK?vd_source=ed67a7c037b238abe03064fe00ef389b" class="btn btn-outline-success" type="submit">Login</a>
+                </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card mb-3" style="max-width: 20000px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="img/img 10.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">卡片資訊介紹</h5>
+                    <p class="card-text">卡名
+                        <p class="card-text">
+                            卡的名稱，是規則上判斷是否為同一張卡片的依據。
+                            卡名可以被效果改變，但只有卡片上記載的卡名稱為原本卡名。
+                            卡名相同的卡被視作「同名卡」而在規則中享受同等的對待，同名的卡片在卡組中最多存在3張。一些卡在規則上被當作其他的卡名。
+                            <p class="card-text"> 屬性
+                                <p class="card-text"> 
+                                    怪獸卡被賦予：光、暗、地、風、水、炎、神7種屬性。
+                                    卡的屬性可以被效果改變，同1張卡可以同時擁有多個屬性，但只有卡片上記載的屬性稱為原本屬性。
+                                    某些卡的效果將會對特定屬性的卡產生影響，但是不存在屬性相剋而影響怪物間的戰鬥結果的情況。
+                                    <p class="card-text">等級/階級
+                                        <p class="card-text">用星星的數量代表的怪獸級別。一般來說，等級/階級越高，怪獸就越強大。
+                                            有些卡的效果與特定的等級/階級相關，或是可以改變卡的等級/階級，或是在某一條件下當作另外的某一等級/階級使用，但只有卡片上記載的等級/階級稱為原本等級/階級。
+                                            等級用從右向左排列的紅圓黃星數量表示。超量怪獸和連接怪獸以外的怪獸均持有等級。玩家一般簡寫作LX/LVX（Level的首字母，X為數字）。卡片的原本等級最低為1，最高為12。
+                                            階級用從左向右排列的黑圓黃星數量表示。只有超量怪獸持有階級。玩家一般簡寫作RX（Rank的首字母，X為數字）。卡片的原本階級最低為1，最高為13。
+                                            等級數值對怪獸出場的影響：
+                                            <p class="card-text">LV4以下的怪獸可以不用解放通常召喚。LV5與6的怪獸在通常召喚時需要解放1隻場上的怪獸，LV7以上的怪獸則需要解放2隻。
+                                                若要儀式召喚，一般需要解放合計等級與那隻儀式怪獸等級相同或以上的怪獸（根據儀式魔法效果描述而不同）。
+                                                若要同調召喚，一般需要將合計等級與那隻同調怪獸等級相同，且包含調整與調整以外怪獸的一組場上的怪獸作為同調素材。
+                                                若要超量召喚，一般需要將若干只（數量根據卡片記述決定）等級與那隻超量怪獸的階級數值相同的怪獸疊放在那隻超量怪獸下作為超量素材。
+                                                若要靈擺召喚，一般需要將靈擺刻度差值大於1的2張靈擺卡設置在靈擺區域，此時可以靈擺召喚的怪獸等級在兩個靈擺刻度的開區間內。
+                                            
+                                                <p class="card-text">卡編號
+                                                    <p class="card-text">根據卡片收錄的卡包等在卡上記述的編號，便於搜索和整理卡片。
+                                                        <p class="card-text">種族
+                                                            <p class="card-text">怪獸卡被歸為：龍、惡魔、機械、魔法師、天使、雷、不死、昆蟲、水、戰士、恐龍、炎、獸戰士、岩石、爬蟲、獸、魚、植物、鳥獸、海龍、幻龍、幻神獸、念動力、創造神、電子界族等25個種族。
+                                                                卡的種族可以被效果改變，同1張卡可以同時擁有多個種族，但只有卡片上記載的種族稱為原本種族。
+                                                                某些卡的效果將會對特定種族的卡產生影響，但是不存在種族相剋而影響怪物間戰鬥結果的情況。
+                                                                <p class="card-text">怪獸種類/能力
+                                                                    <p class="card-text">這裡記載怪獸種類和怪獸能力。
+                                                                        <p class="card-text">怪獸的信息/效果
+                                                                            <p class="card-text">通常怪獸的這欄是對該怪獸的描述性文字，而效果怪獸的這欄就是對怪獸的特殊能力的解說。不是效果的效果外文本，如召喚條件、勝利條件等也會在此處寫明。
+                                                                                怪獸效果主要分為4類，但也有不屬於其中任意一種的「無種類效果」存在。
+                                                                                <p class="card-text">永續效果
+                                                                                    <p class="card-text">此卡在場上正面表示存在，效果持續有效。該效果沒有「發動」及「發動時機」的概念，怪獸在場上正面表示出現的時候效果即適用，離場或者變為背面表示的同時失去效果。例：「只要這張卡在怪獸區域存在，……」
+                                                                                        <p class="card-text">啟動效果
+                                                                                            <p class="card-text">自己的回合在自己場上正面表示存在的時候可以發動，一般只能主要階段作為連鎖1發動。使用此類效果時，支付效果規定的COST後，宣言發動。咒語速度為1。例：「自己主要階段才能發動，……」。
+                                                                                                <p class="card-text">誘發效果
+                                                                                                    <p class="card-text">召喚成功、怪獸反轉、進行戰鬥、給予傷害、送往墓地等等條件滿足的時機才能發動的效果。咒語速度為1。例：「這張卡召喚成功時，……」。
+                                                                                                        <p class="card-text">誘發即時效果
+                                                                                                            <p class="card-text">發動條件滿足時，即使在對方的回合也可發動。咒語速度為2，因此可以對怪獸、魔法、陷阱的發動進行連鎖。例：「這個效果在對方回合也能發動」。
+                                                                                                                <p class="card-text">攻擊力·守備力
+                                                                                                                    <p class="card-text">不涉及到卡片效果的前提下，數值較高一方比較有利。
+                                                                                                                        有很多效果可以改變攻擊力·守備力數值，同時也有一些卡片效果指定特定攻擊力·守備力數值的怪獸。
+                                                                                                                        原本的攻擊力·守備力一般指的是卡片上記述的數值，但也有些效果可以改變原本的攻擊力·守備力。
+                                                                                                                        攻擊力·守備力為「？」與攻擊力·守備力為「0」是不同的概念。舉例來說，原本攻擊力·守備力XX以上/XX以下相關的效果不可以指定對應數值為「？」的怪獸。但場上表側表示的攻擊力·守備力？的怪獸在效果不適用的情況下會變為攻擊力·守備力0。
+                                                                                                                        
+                                                                                                                       
+                                                                                                                        <p class="card-text">連接數值
+                                                                                                                            <p class="card-text">也稱為LINK數，僅連接怪獸擁有的特別數值，指的是連接召喚那隻怪獸需要的連接素材數量。一般一個怪獸就作為一個連接素材使用，但是也能把最多1隻連接怪獸當作那個連接數值的連接素材使用。
+                                                      </p>
+                                                        </p>
+                                                    </p>
+                                                </p>
+                                            </p>
+                                        </p>
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3" style="max-width: 20000px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://truth.bahamut.com.tw/s01/201704/34a44f9e98539d865b7c2c35148f562c.JPG" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">通常怪獸</h5>
+                    <p class="card-text">通常怪獸，日文名「通常モンスター」，英文名「Normal Monster」。
+
+                        卡片邊框為淺黃色，沒有任何怪獸效果，沒有召喚限制，信息欄只有關於怪獸性格、特徵等的相關描述。
+                        
+                        第10期開始區分為【XX族/·通常】。
+                        
+                        有複合型的【調整/通常】怪獸和【靈擺/通常】怪獸，【靈擺/通常】怪獸雖然屬於通常怪獸，但被作為靈擺卡發動時會視為魔法卡，並擁有相關的靈擺效果。
+                        <p class="card-text">
+                            <p class="card-text"> 
+                                <p class="card-text"> 
+                                    <p class="card-text">
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="img/img 12.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">效果怪獸</h5>
+                    <p class="card-text">效果怪獸，日文名「効果モンスター」，英文名「Effect Monster」。
+
+                        卡片邊框為橙黃色（也有人認為是棕褐色），帶有特殊效果的怪獸。是怪獸卡中常見的類型。
+                        
+                        只要怪獸能力記述有【效果】字樣的都屬於效果怪獸。
+                        <p class="card-text">
+                            <p class="card-text"> 
+                                <p class="card-text"> 
+                                    <p class="card-text">
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://truth.bahamut.com.tw/s01/201704/2f0652a5c155b009bed160dd86779a07.JPG" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">儀式怪獸</h5>
+                    <p class="card-text">儀式怪獸，日文名「儀式モンスター」，英文名「Ritual Monster」。
+
+                        卡片邊框為藍色，放置在主卡組中。在儀式怪獸的怪獸信息中，會記述該怪獸在正規召喚方式（一般是儀式召喚）中需要使用的儀式魔法卡以及召喚條件。
+                        <p class="card-text">
+                            <p class="card-text"> 
+                                <p class="card-text"> 
+                                    <p class="card-text">
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://truth.bahamut.com.tw/s01/201704/c4fa586f9c88843fc4a432a1a89480b1.JPG" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">融合怪獸</h5>
+                    <p class="card-text">融合怪獸，日文名「融合モンスター」，英文名「Fusion Monster」。
+
+                        卡片邊框為紫色，因此也有「紫怪」的別稱。放置於額外卡組中。在融合怪獸的怪獸信息中，會記述該怪獸在正規召喚方式中需要素材信息以及召喚條件。大多數融合怪獸以使用融合魔法卡的融合召喚為正規召喚方式，但也有部分融合怪獸使用其他方式出場。
+                    
+                        <p class="card-text">
+                            <p class="card-text"> 
+                                <p class="card-text"> 
+                                    <p class="card-text">
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://truth.bahamut.com.tw/s01/201704/cdf4dcd398f26d2b26c2c7382846a84f.JPG" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">同步怪獸</h5>
+                    <p class="card-text">同步怪獸，也譯作同步怪獸，日文名「S（シンクロ）モンスター」，英文名「Synchro Monster」。在本條目中，「同調」與「同步」是同義的。
+
+                        卡片邊框為白色，因此也有「白怪」的別稱。放置於額外卡組中。在同調怪獸的怪獸信息中，會記述該怪獸在正規召喚方式中需要的素材信息以及召喚條件。以被稱為「調整」的怪獸和其他怪獸等級相加，可以將持有與那個數值相同等級的同調怪獸從額外卡組同調召喚。也有一些同調怪獸以其他方式出場。
+                        
+                        <p class="card-text">
+                            <p class="card-text"> 
+                                <p class="card-text"> 
+                                    <p class="card-text">
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://truth.bahamut.com.tw/s01/201704/b01466fb536ef269000ec1982ac3c37b.JPG" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">超量怪獸</h5>
+                    <p class="card-text">超量怪獸，也譯作XYZ怪獸，日文名「X（エクシーズ）モンスター」，英文名「XYZ Monster」。在本條目中，「超量」與「XYZ」是同義的。
+
+                        卡片邊框為黑色，因此也有「黑怪」的別稱。放置於額外卡組中。在超量怪獸的怪獸信息中，會記述該怪獸在正規召喚方式中需要的素材信息以及召喚條件。將持有相同等級的怪獸疊放，可以將持有與那個數值相同階級的超量怪獸從額外卡組超量召喚。也有一些超量怪獸以其他方式出場。
+                        
+                        超量怪獸沒有等級，而是擁有「階級（ランク / RANK）」，以黑圓黃星表示，排列方式是從左到右。超量怪獸不受等級相關的效果影響，不能作為同調召喚等以等級為條件的素材使用。
+                        <p class="card-text">
+                            <p class="card-text"> 
+                                <p class="card-text"> 
+                                    <p class="card-text">
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://truth.bahamut.com.tw/s01/201704/23a9f316b752131a20cde523ed2bb85c.JPG" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">靈擺怪獸</h5>
+                    <p class="card-text">靈擺怪獸，日文名「P（ペンデュラム）モンスター」，英文名「Pendulum Monster」。
+
+                        卡片的上下半邊的邊框分別是怪獸卡邊框的顏色和魔法卡邊框的綠色。信息欄則被分為上下兩欄：靈擺信息與怪獸信息。靈擺刻度在靈擺信息的兩旁。一般情況下放在主卡組中，作為融合怪獸、同調怪獸或超量怪獸的則放在額外卡組中。
+                        
+                        一般情況下當作怪獸卡使用，若放在靈擺區則當作魔法卡使用。當自己場上的兩邊靈擺區域都有靈擺卡放置時，能進行靈擺召喚。根據2張靈擺卡的靈擺刻度，可以把持有那2個刻度之間數值的等級的手卡的怪獸以及額外卡組表側表示的靈擺怪獸在自己場上靈擺召喚。靈擺召喚1回合只能進行1次，自己的主要階段才能進行，從額外卡組靈擺召喚的怪獸只能出在額外怪獸區或連接端。
+                        
+                        靈擺怪獸從場上送去墓地的場合，不會送去墓地而是表側表示加入自己的額外卡組。
+                        
+                        【靈擺/通常】怪獸以外的靈擺怪獸都屬於效果怪獸。有【融合/靈擺】、【同調/靈擺】與【超量/靈擺】這些複合形態怪獸存在，這類怪獸在經過正常的召喚方式後能通過自身的效果變成靈擺卡使用，在表側表示加入額外卡組後能在一定條件下被靈擺召喚。
+                        <p class="card-text">
+                            <p class="card-text"> 
+                                <p class="card-text"> 
+                                    <p class="card-text">
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://truth.bahamut.com.tw/s01/201704/950f2f8dff6a84007ab824f9e4992508.JPG" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">連接怪獸</h5>
+                    <p class="card-text">連接怪獸，日文名「リンクモンスター」，英文名「Link Moster」。 卡片邊框為藏青色，並有六角形的花紋，放置於額外卡組中。與其他怪獸卡相比，卡片右下方擁有「連接數值」，怪獸圖片框周圍有8個箭頭為該怪獸的「連接標記」，其中的紅色箭頭表示該怪獸「所連接區」位置。
+
+                        在連接怪獸的怪獸信息中，會記述該怪獸在正規召喚方式中需要的素材信息以及召喚條件。連接數值也稱為LINK數，指的是連接召喚那隻怪獸需要的連接素材數量。連接召喚時，連接怪獸也可以當作與自身連接值相等數量的怪獸用作連接素材。
+                        
+                        連接怪獸沒有等級·階級，沒有守備力，不能變成守備表示，因此不受等級·階級·守備力和改變表示形式的相關效果影響。
+                        
+                        連接怪獸的「連接標記」指向的怪獸區域稱為連接端。從額外卡組靈擺召喚的靈擺怪獸或連接召喚的連接怪獸只能出在額外怪獸區或連接端。
+
+                        <p class="card-text">
+                            <p class="card-text"> 
+                                <p class="card-text"> 
+                                    <p class="card-text">
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://gcs.rimg.com.tw/g2/6/71/86/21842809557382_638.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">衍生物</h5>
+                    <p class="card-text">衍生物，日文名「トークン」，英文名「Token」。也被稱為毛、代幣。雖然有衍生物的實體卡存在，但並不當作卡片使用，也不能加入卡組構築。實體衍生物卡邊框為灰色。一般來說，可以用能區分攻擊·守備表示的任意合理的物品充當衍生物。
+
+                        衍生物是由部分卡片的效果特殊召喚的通常怪獸，衍生物的相關信息在那張把衍生物特殊召喚的卡的效果中記述。嚴格上說，衍生物並不是卡，但是對卡適用的效果一般對衍生物同樣適用。
+                        
+                        衍生物只能在場上存在，可以被送去墓地·回到卡組·回到手卡的「效果」影響，也可以被除外的「效果」影響，但從場上離開時會消滅。此外，衍生物可以作為融合·同調·連接素材使用，也可以作為解放·除外的「代價」·手續使用。
+                        
+                        衍生物不能變成里側表示，不能作為超量怪獸的超量素材進行疊放，不能作為送去墓地·回到手卡·卡組的「代價」·手續被使用。
+                        <p class="card-text">
+                            <p class="card-text"> 
+                                <p class="card-text"> 
+                                    <p class="card-text">
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://5b0988e595225.cdn.sohucs.com/images/20191106/2ca9e3ab452a43d493dddaf4bab81677.jpeg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">具有特殊能力名的怪獸                    </h5>
+                    <p class="card-text">反轉怪獸
+                        <p class="card-text">反轉怪獸，日文名「リバースモンスター」，英文名「Reverse Monster」。
+
+                            「反轉」指的是里側表示的怪獸變為表側表示。通常是由於進行了反轉召喚或是被戰鬥·效果變更了表示形式。
+                            
+                            反轉怪獸一般擁有反轉時才能發動的效果。
+                            
+                            第9期文本開始在怪獸能力欄標註。在那之前，一般在效果文本前註明「リバース：」。
+                            <p class="card-text"> 同盟怪獸
+                                <p class="card-text"> 同盟怪獸，也譯為聯合怪獸，日文名「ユニオンモンスター」，英文名「Union Monster」。
+
+                                    同盟怪獸擁有能成為指定怪獸的裝備卡的能力，也能解除裝備變回怪獸。同盟怪獸在作為裝備狀態下，裝備怪獸能獲得能力值的提升，同時同盟怪獸也能代替裝備怪獸被破壞。
+                                    
+                                    第9期文本修訂中，部分同盟怪獸的文本被修改，沒有被修改的同盟怪獸按照舊有文本繼續使用。
+                                    <p class="card-text">卡通怪獸
+                                        <p class="card-text">卡通怪獸，日文名「トゥーンモンスター」，英文名「Toon Monster」。
+
+                                            圍繞「卡通世界」和相關卡片而展開戰術的怪獸類別。（詳見「卡通卡組」）
+                                            
+                                            卡通怪獸一般以其他怪獸作為原型，卡名加上「卡通」，卡圖則是原型怪獸的Q版，效果也有一定關聯。卡通怪獸均具有直接攻擊的能力。在原作中，帕加索斯能讓對手的怪獸變為卡通怪獸。
+                                            <p class="card-text">靈魂怪獸
+                                                <p class="card-text">靈魂怪獸，日文名「スピリットモンスター」，英文名「Spirit Monster」。
+
+                                                    靈魂怪獸的共同效果是，不能特殊召喚（也有不能通常召喚的特例），召喚·反轉的回合的結束階段時回到持有者手卡。
+                                                    <p class="card-text">二重怪獸
+                                                        <p class="card-text">二重怪獸，日文名「デュアルモンスター」，英文名「Gemini Monster」。
+
+                                                            二重怪獸的共同效果是，在場上·墓地時當作通常怪獸使用，將場上的二重怪獸再次召喚（消耗1次通常召喚的「再度召喚」）後則會當作效果怪獸使用並獲得效果。
+                                                            <p class="card-text">調整怪獸
+                                                                <p class="card-text">調整怪獸，也譯為協調怪獸、調星師，日文名為「チューナーモンスター」，英文名為「Tuner Monster」。在本條目中，「調整」與「協調」是同義的。
+
+                                                                    進行同調召喚的同調素材中，需要1隻以上的調整怪獸。
+                                                                    
+                                                                    一些卡的效果可以把調整以外的怪獸當作調整使用。但如果其他卡用效果複製了調整怪獸的卡名或效果，不能當作調整使用。
+                                                                    
+                                                                    <p class="card-text">特殊召喚怪獸
+                                                                        <p class="card-text">特殊召喚怪獸，日文名「特殊召喚モンスター」，英文名「Special Summon Monster」。
+
+                                                                            特殊召喚怪獸不能通常召喚，只可按照符合卡片記述的召喚方式特殊召喚。
+                                                                            
+                                                                            第9期文本開始在怪獸能力欄標註。在那之前，一般在效果文本中記述召喚方式。
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://pic4.zhimg.com/80/v2-49d4f37a19f84fc4a08f13b40222967f_1440w.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">魔法卡</h5>
+                    <p class="card-text">卡名
+                        <p class="card-text">卡的名稱，是規則上判斷是否為同一張卡片的依據。
+                            卡名可以被效果改變，但只有卡片上記載的卡名稱為原本卡名。
+                            卡名相同的卡被視作「同名卡」而在規則中享受同等的對待，同名的卡片在卡組中最多存在3張。一些卡在規則上被當作其他的卡名。
+                            <p class="card-text"> 種類標記
+                                <p class="card-text"> 魔法卡用「魔」的種類標記表示。
+                                    <p class="card-text">效果標記
+                                        <p class="card-text">表明該魔法卡的類型。有儀式、永續、裝備、場地、速攻5種標記，沒有標記的卡稱為「通常魔法」。
+                                            除了速攻魔法以外，魔法卡的咒語速度一般都是1，只能在自己的主要階段於連鎖1發動。速攻魔法的咒語速度為2，可以連鎖其他效果進行發動。
+                                            魔法卡可以在自己的主要階段蓋放在場上，除了速攻魔法以外，都可以在蓋放的回合發動。
+                                        
+                                            <p class="card-text">卡編號
+                                                <p class="card-text">根據卡片收錄的卡包等在卡上記述的編號，便於搜索和整理卡片。
+                                                    <p class="card-text">效果說明
+                                                        <p class="card-text">記述該魔法卡的發動條件、效果的說明性文字。
+
+                                                        </p>
+                                                    </p>
+                                                </p>
+                                            </p>
+
+                                        </p>
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://gcs.rimg.com.tw/g1/d/8b/63/21925806852963_683.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">陷阱卡</h5>
+                    <p class="card-text">卡名
+                        <p class="card-text">卡的名稱，是規則上判斷是否為同一張卡片的依據。
+                            卡名可以被效果改變，但只有卡片上記載的卡名稱為原本卡名。
+                            卡名相同的卡被視作「同名卡」而在規則中享受同等的對待，同名的卡片在卡組中最多存在3張。一些卡在規則上被當作其他的卡名。
+                            <p class="card-text">種類標記 
+                                <p class="card-text"> 陷阱卡用「罠」的種類標記表示。
+                                    <p class="card-text">效果標記
+                                        <p class="card-text">表明該陷阱卡的類型。有永續、反擊兩種標記，沒有標記的卡稱為「通常陷阱」。
+                                            一般情況下，陷阱卡的咒語速度為2，可以連鎖其他效果發動。而反擊陷阱的咒語速度是3，因此只有反擊陷阱可以連鎖反擊陷阱。
+                                            <p class="card-text">卡編號
+                                                <p class="card-text">根據卡片收錄的卡包等在卡上記述的編號，便於搜索和整理卡片。
+                                                    <p class="card-text">效果說明
+                                                        <p class="card-text">記述該陷阱卡的發動條件、效果的說明性文字。
+
+                                                        </p>
+                                                    </p>
+                                                </p>
+                                            </p>
+                                        </p>
+                      </p>
+                    <p class="card-text"><small class="text-muted">Last updated at 2023/4/14</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
